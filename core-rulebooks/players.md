@@ -20,9 +20,11 @@ A character can jump over terrain obstacles. Character can attempt to leap over 
 
 ## Attack
 
-A hero may attack any enemy that it is **adjacent** to. Heroes may not attack diagonally. To make an attack, the hero rolls a number of dice equal to the attack value. The defending enemy rolls the number of dice their defense value. Compare the rolls by first discarding duplicates between the totals. The defender's highest roll becomes the target of the attacker. Count all dice that equal or exceed the target number. This is the damage the enemy suffers. If no dice exceed the roll, the attack fails. If no dice remain for the defender, count all the attacker's dice as damage.
+A hero may attack any enemy that it is **adjacent** to. Heroes may not attack diagonally. To make an attack, the hero rolls a number of dice equal to the attack value. The defending enemy rolls the number of dice their defense value. Compare the dice pools. Each pool discards duplicates on a one-for-one basis. The defender's highest remaining die becomes the target of the attacker. Count all the attacker's dice that equal or exceed the target number. This is the damage the enemy suffers. If no dice exceed the roll, the attack fails. If no dice remain for the defender, count all the attacker's dice as damage.
 
 >The barbarian attacks a goblin using his battle axe (4). He rolls 4,3,3,1. The goblin rolls his defense (2): 4,2. Each combatant discards a 4. The defender is left with a 2, making that the target for the attack. The two 3s count as 2 damage to the goblin.
+
+>The ranger shoots a troll with his longbow (3): 5,5,3. The troll rolls his defense (4): 5,4,4,3. Comparing the pools, they each discard a 5. The troll's highest die, a 4, becomes the target number. The ranger has one 5 left over, dealing one damage to the troll.
 
 ### Ranged Attacks
 
