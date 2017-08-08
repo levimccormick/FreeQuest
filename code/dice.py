@@ -5,7 +5,7 @@ def main():
     iterations = 10000
     for x in range(iterations):
         damageTotal += runAttack(attackDice,defenseDice)
-        
+
     averageDamage = damageTotal/iterations
     print('Attack: {} vs Defense: {}'.format(attackDice,defenseDice))
     print('Average damage: {}'.format(averageDamage))
@@ -15,20 +15,7 @@ def runAttack(attackDice,defenseDice):
     attack = rollDice(attackDice)
     defense = rollDice(defenseDice)
     attack,defense = compareLists(attack,defense)
-    damage = calculateDamage(attack,defense)
-    return damage
-
-def calculateDamage(attack,defense):
-    damage = 0
-    if not defense:
-        target = 0
-    else:
-        target = max(defense)
-
-    for x in attack[:]:
-        if x >= target:
-            damage += x
-
+    damage = calculateWounds(attack,defense)
     return damage
 
 def calculateWounds(attack,defense):

@@ -20,9 +20,9 @@ A character can jump over terrain obstacles. Character can attempt to leap over 
 
 ## Attack
 
-A hero may attack any enemy that it is **adjacent** to. Heroes may not attack diagonally. To make an attack, the hero rolls a number of dice equal to the attack value. The defending enemy rolls the number of dice their defense value. Compare the rolls by first discarding duplicates between the totals. The defender's highest roll becomes the target of the attacker. Sum up all dice that equal or exceed the target number. This is the damage the enemy suffers. If no dice exceed the roll, the attack fails. If no dice remain for the defender, sum up all the attacker's dice as damage.
+A hero may attack any enemy that it is **adjacent** to. Heroes may not attack diagonally. To make an attack, the hero rolls a number of dice equal to the attack value. The defending enemy rolls the number of dice their defense value. Compare the rolls by first discarding duplicates between the totals. The defender's highest roll becomes the target of the attacker. Count all dice that equal or exceed the target number. This is the damage the enemy suffers. If no dice exceed the roll, the attack fails. If no dice remain for the defender, count all the attacker's dice as damage.
 
->The barbarian attacks a goblin using his battle axe (4). He rolls 4,3,3,1. The goblin rolls his defense (2): 4,2. Each combatant discards a 4. The defender is left with a 2, making that the target for the attack. The two 3s are added up to equal 6 damage to the goblin.
+>The barbarian attacks a goblin using his battle axe (4). He rolls 4,3,3,1. The goblin rolls his defense (2): 4,2. Each combatant discards a 4. The defender is left with a 2, making that the target for the attack. The two 3s count as 2 damage to the goblin.
 
 ### Ranged Attacks
 
