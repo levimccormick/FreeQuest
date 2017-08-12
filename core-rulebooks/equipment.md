@@ -1,5 +1,0 @@
-# Weapons
-
-# Armor
-
-# Other
