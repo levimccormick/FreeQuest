@@ -2,6 +2,16 @@
 
 One player is the referee. Their job is to reveal the quest and control the monsters. The rest of the players control heroes. Players take turns completing their actions, trying to complete the objective of the quest.
 
+# Resolving Actions
+
+### Static Tests
+
+A static test involves rolling a stat against a set target number. Each die that equals or exceeds the target number is a success. Disarming a trap or leaping over obstacles use a Test to resolve.
+
+### Contests
+
+A contest is a roll between two stats. Attacks, some spells, and other actions use a Contest to resolve. Each side rolls a number of dice equal to their stat. They compare each dice pool and discard duplicate dice on a one-for-one basis. The defender's highest die becomes the target of the attacker. Each attacking die equal to or higher than the target becomes a success.
+
 # Creating a Hero
 
 Choose one of the supplied heroes. Transfer the values to your hero record sheet. The hero may have some selections to complete when creating the hero. These will be listed in the hero's definition. Record these choices on the record sheet, as well.
