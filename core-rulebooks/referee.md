@@ -1,3 +1,13 @@
+# How to Play
+
+The referee sets the quest up for the heroes to explore. As they progress, you will add and control the monsters who are trying to stop the heroes from completing their objective.
+
+# Setup
+
+Refer to the quest sheet and locate the starting point for the heroes. Lay out the starting tile and any doors or furniture in the starting room.
+
+#
+
 # On the referee's Turn
 
 Once each player has their turn performing actions, the referee takes a turn for each monster on the board. Like heroes, monsters can perform two unique actions on their turn. Their actions are limited to: Move, Attack, Cast a Spell (if they have any).
@@ -15,3 +25,5 @@ A monster may attack any hero that it is **adjacent** to. Heroes may not attack 
 ## Cast a Spell
 
 Monsters with spell casting ability can use this action. The caster must have **line of sight** to the target. Refer to the spell definition to resolve its effects. Once the spell has been cast, mark off/discard the spell card. Spells can be used only once.
+
+# Traps
