@@ -1,9 +1,20 @@
 # FreeQuest
 FreeQuest is an open source fantasy adventure board game inspired by games like Heroquest, Warhammer Quest, and Descent. It aims to recreate the feeling of an adventure board game with simple mechanics that anyone with a printer can produce in their home. Adaptations will allow for use of models or terrain.
 
+# Current State
+
+Currently, there is enough here to play. You need to come up with your own figures, board, quests, etc. The heroes, monsters, and equipment need more play testing to know if they're balanced properly. I hope to get enough components together to release a print-and-play version in the next two weeks.
+
 # Contributing
 
-While we playtest the system, we won't be accepting external contributions. Once we solidify the design, we'll be looking for artwork, tokens, models, heroes, monsters, quests, etc.
+We are currently seeking the following:
+* dungeon tiles
+* hero / monster tokens or stand ups
+* quests / campaigns
+* heroes
+* spells
+
+If you want to contribute, but don't know how, reach out to me on twitter: [@levi_mccormick](https://twitter.com/levi_mccormick). I'll let you know how you can help.
 
 # License
 
