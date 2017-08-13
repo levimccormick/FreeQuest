@@ -6,7 +6,7 @@ The medic heals allies on the battlefield.
 |----|----:|
 | Movement     |  8 |
 | Attack Dice  |  1 |
-| Defense Dice |  1 |
+| Defense Dice |  2 |
 | Health       |  6 |
 | Skill        |  3 |
 | Magic        |  3 |

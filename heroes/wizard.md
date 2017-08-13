@@ -6,7 +6,7 @@ Eschewing training in weapons and armor, the Wizard shapes and controls magical 
 |----|----:|
 | Movement     |  8 |
 | Attack Dice  |  1 |
-| Defense Dice |  1 |
+| Defense Dice |  2 |
 | Health       |  5 |
 | Skill        |  2 |
 | Magic        |  5 |

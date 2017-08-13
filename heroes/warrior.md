@@ -6,7 +6,7 @@ Born and bred for war, the Warrior focuses on little beyond physically destroyin
 |----|----:|
 | Movement     |  8 |
 | Attack Dice  |  1 |
-| Defense Dice |  1 |
+| Defense Dice |  2 |
 | Health       | 10 |
 | Skill        |  2 |
 
