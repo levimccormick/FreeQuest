@@ -1,23 +1,17 @@
-import dice
+""" Tests for game mechanics. """
 
-# def main():
-#     iterations = 100000
-#     for item in [(2,2),(5,4),(6,8)]:
-#         hits = 0
-#         damageTotal = 0
-#         for _ in range(iterations):
-#             damage = dice.runAttack(item[0],item[1])
-#             if damage > 0:
-#                 hits += 1
-#                 damageTotal += damage
-#
-#         print('{} vs {}: {} Avg damage: {}'.format(item[0],item[1], hits/iterations, damageTotal/hits))
+def test_attack():
+    import dice
+    damage_total = 0
+    attack_dice = 5
+    defense_dice = 2
+    iterations = 10000
+    for _ in range(iterations):
+        damage_total += dice.run_attack(attack_dice, defense_dice)
 
-def main():
-    attackDice = dice.rollDice(3)
-    defenseDice = dice.rollDice(5)
+    average_damage = damage_total/iterations
+    print('Attack: {} vs Defense: {}'.format(attack_dice, defense_dice))
+    print('Average damage: {}'.format(average_damage))
 
-    print('{} vs {}'.format(attackDice,defenseDice))
-
-if __name__ == '__main__':
-    main()
+def test_warrior():
+    """ Set of tests to see if the warrior's abilities balance. """

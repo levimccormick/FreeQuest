@@ -30,7 +30,7 @@ A character can jump over terrain obstacles. Character can attempt to leap over 
 
 ### Attack
 
-A hero may attack any enemy that it is **adjacent** to. Heroes may not attack diagonally. To make an attack, the hero rolls a number of dice equal to the attack value. The defending enemy rolls the number of dice their defense value. Compare the dice pools. Each pool discards duplicates on a one-for-one basis. The defender's highest remaining die becomes the target of the attacker. Count all the attacker's dice that equal or exceed the target number. This is the damage the enemy suffers. If no dice exceed the roll, the attack fails. If no dice remain for the defender, count all the attacker's dice as damage.
+A hero may attack any enemy that it is **adjacent** to. Heroes may not attack diagonally, unless allowed by equipment or special abilities. To make an attack, the hero rolls a number of dice equal to the attack value. The defending enemy rolls the number of dice their defense value. Compare the results of the dice pools. Each pool discards duplicates on a one-for-one basis. The defender's highest remaining die becomes the target of the attacker. Count all the attacker's dice that equal or exceed the target number. This is the damage the enemy suffers. If no dice exceed the roll, the attack fails. If no dice remain for the defender, count all the attacker's dice as damage.
 
 >The barbarian attacks a goblin using his battle axe (4). He rolls 4,3,3,1. The goblin rolls his defense (2): 4,2. Each combatant discards a 4. The defender is left with a 2, making that the target for the attack. The two 3s count as 2 damage to the goblin.
 
@@ -46,7 +46,7 @@ Heroes with spell casting ability can use this action. The caster must have **li
 
 ### Search
 
-Heroes can search a room or hallway for treasure, traps, or secret doors. A hero can only search for one thing per action. When searching for traps or secret doors, the game controller will reveal all of the traps or secret doors in the room or hallway the hero occupies. When searching for treasure, the game controller will award any treasure in the room to the hero. If the room does not contain treasure, a random treasure is drawn from the deck. Watch out for Wandering Monsters.
+Heroes can search a room or hallway for treasure, traps, or secret doors. A hero can only search for one thing per action. When searching for traps or secret doors, the referee will reveal all of the traps or secret doors in the room or hallway the hero occupies. When searching for treasure, the referee will award any treasure in the room to the hero. If the room does not contain treasure, a random treasure is drawn from the deck. Watch out for Wandering Monsters.
 
 ### Activate the Terrain
 
@@ -70,6 +70,7 @@ Heroes start with 1 Attack and Defense die. Weapons and Armor add extra dice.
 | Battle axe | +4 | 750 | 2 hands |
 | Short Bow  | +2 | 250 | 2 hands, ranged |
 | Crossbow   | +3 | 350 | 2 hands, ranged |
+| Longbow    | +4 | 850 | 2 hands, ranged |
 
 |Armor | Defense Dice | Cost | Slot | Special |
 |----|:----:|----:|----|----|
@@ -81,9 +82,9 @@ Heroes start with 1 Attack and Defense die. Weapons and Armor add extra dice.
 
 # Spells
 
-Spellcasting players take turn selecting spells from those available, no duplicates. Some spells allow the monster to attempt to resist the effect. They make a Skill contest vs the spell caster's Magic dice.
+Spellcasting players take turn selecting spells from those available, no duplicates. Some spells allow the monster to attempt to resist the effect. They make a Skill Test with the caster's Magic stat as the target.
 
-> The wizard casts Imolate on a mummy. The mummy makes a Skill (3) contest against the Wizard's magic (5): [5, 4, 2] vs [5, 3, 3, 2, 2]. They each discard a 5 and a 2, leaving the mummy with a 4 exceeding the wizard's high result of 3. The mummy takes one damage.
+> The wizard casts Imolate on a mummy. The mummy makes a Skill (3) Test against the Wizard's magic (5): [5, 4, 2] vs 5. The mummy rolled one success, preventing one damage.
 
 ### Attack Spells
 
@@ -91,7 +92,7 @@ Spellcasting players take turn selecting spells from those available, no duplica
 Attack any monster you can see with 4 Attack dice.
 
 **Imolate**
-Any monster you can see takes 2 damage. The monster reduces the damage by one per success in a Skill vs Magic Contest.
+Any monster you can see takes 2 damage. The monster reduces the damage by one per success in a Skill vs Magic Test.
 
 ### Healing
 
@@ -103,12 +104,13 @@ Restore 5 health to an adjacent hero. A hero cannot exceed their maximum health.
 ### Buff/Debuff
 
 **Burning Rage**
-Any hero gains Attack +2, Defense -2 and does not die when reduced to zero health. This spell lasts until they can no longer see any monsters. If the hero's health is at zero at the end of this spell, they will die.
+Any hero gains Attack +2, Defense -2 and does not die when reduced to zero health. This spell lasts until they can no longer see any monsters. If the hero's health is at zero at the end of this spell, they die.
 
 ### Movement
 
 # Enchanted Items
-[Here or separate?]
+
+Through their adventures, the heroes may discover special or enchanted equipment. The referee with provide more info when discovered.
 
 # Dying Heroes
 

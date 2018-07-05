@@ -15,4 +15,4 @@ The Medic can use light weapons and light armor.
 
 **Starting Equipment:** Shortsword ( Attack +2 )
 
-**First Aid:** Attempt to heal any adjacent hero. Make a Skill test, target number is the target's current health. Each success restores one health.
+**First Aid:** Attempt to heal any adjacent hero. Make a Skill test, target number is the target's current health. Each success restores one health, up to the maximum of the hero. A medic cannot use this ability on themself. 

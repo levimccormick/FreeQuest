@@ -7,7 +7,7 @@ The Sword Defender dedicates their life to protecting others.
 | Movement     |  6 |
 | Attack Dice  |  1 |
 | Defense Dice |  2 |
-| Health       |  8 |
+| Health       | 10 |
 | Skill        |  2 |
 
 The Sworn Defender can use all weapons and armor.

@@ -1,59 +1,27 @@
-def main():
-    damageTotal = 0
-    attackDice = 5
-    defenseDice = 2
-    iterations = 10000
-    for x in range(iterations):
-        damageTotal += runAttack(attackDice,defenseDice)
+""" Functions to simulate dice mechanics"""
+def compare_lists(attack, defense):
+    """compare and discard duplicate values from each list of dice results"""
+    for die in attack[:]:
+        if die in defense[:]:
+            attack.remove(die)
+            defense.remove(die)
 
-    averageDamage = damageTotal/iterations
-    print('Attack: {} vs Defense: {}'.format(attackDice,defenseDice))
-    print('Average damage: {}'.format(averageDamage))
+    return attack, defense
 
-def runAttack(attackDice,defenseDice):
-    # simulate an attack between two values
-    attack = rollDice(attackDice)
-    defense = rollDice(defenseDice)
-    attack,defense = compareLists(attack,defense)
-    damage = calculateWounds(attack,defense)
-    return damage
-
-def calculateWounds(attack,defense):
-    wounds = 0
-    if not defense:
-        target = 0
-    else:
-        target = max(defense)
-
-    for x in attack[:]:
-        if x >= target:
-            wounds += 1
-
-    return wounds
-
-def compareLists(attack,defense):
-    # compare and discard duplicate values from each list of dice results
-    for x in attack[:]:
-        if x in defense[:]:
-            attack.remove(x)
-            defense.remove(x)
-
-    return attack,defense
-
-def rollDice(num):
-    # Roll num dice and return a list
+def roll_dice(num):
+    """Roll num dice and return a list"""
     results = []
     for _ in range(num):
-        results.append(rollDie())
+        results.append(roll_die())
 
     return results
 
-def rollDie():
+def roll_die():
+    """roll a die"""
     import random
-    # roll a die
-    min = 1
-    max = 6
-    return random.randint(min,max)
+    low = 1
+    high = 6
+    return random.randint(low, high)
 
 
 
