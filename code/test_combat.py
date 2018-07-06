@@ -27,3 +27,20 @@ def test_run_combat():
     defender = combat.combatant(5, 3, 5)
 
     assert isinstance(combat.run_combat(attacker, defender), bool)
+
+# def test_attack_values():
+#     """ Test various attack vs defense values. """
+#     from tabulate import tabulate
+#     iterations = 10000
+#     table = []
+#     for defense in range(1, 11):
+#         row = [defense]
+#         for attack in range(1, 11):
+#             wounds = 0
+#             for _ in range(iterations):
+#                 wounds += combat.do_attack(attack, defense)
+#             row.append(float(wounds)/iterations)
+#
+#         table.append(row)
+#     print "Defense vs Attack values:"
+#     print tabulate(table, headers=['Defense', 1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
