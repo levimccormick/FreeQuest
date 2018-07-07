@@ -3,7 +3,7 @@ FreeQuest is an open source fantasy adventure board game inspired by games like 
 
 # Current State
 
-Currently, there is enough here to play. You need to come up with your own figures, board, quests, etc. The heroes, monsters, and equipment need more play testing to know if they're balanced properly. I hope to get enough components together to release a print-and-play version in the next two weeks.
+Currently play testing the base rules and heroes.
 
 # Contributing
 
@@ -19,7 +19,6 @@ If you want to contribute, but don't know how, reach out to me on twitter: [@lev
 # License
 
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
-
 
 FreeQuest (c) by Levi McCormick
 

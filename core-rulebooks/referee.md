@@ -27,3 +27,5 @@ A monster may attack any hero that it is **adjacent** to. Monsters may not attac
 Monsters with spell casting ability can use this action. The caster must have **line of sight** to the target. Refer to the spell definition to resolve its effects. Once the spell has been cast, mark off/discard the spell card. Spells can be used only once.
 
 # Traps
+
+Monsters do not trigger quest traps during their movement. They automatically trigger traps placed by players.
