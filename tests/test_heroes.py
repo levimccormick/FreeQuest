@@ -1,5 +1,6 @@
 """ Tests for hero game mechanics. """
-import combat
+from freequest import combat
+
 
 def test_warrior():
     """ Set of tests to see if the warrior's abilities balance. """

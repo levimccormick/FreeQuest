@@ -1,4 +1,6 @@
 """ Functions to simulate dice mechanics"""
+
+
 def compare_lists(attack, defense):
     """compare and discard duplicate values from each list of dice results"""
     for die in attack[:]:
@@ -8,6 +10,7 @@ def compare_lists(attack, defense):
 
     return attack, defense
 
+
 def roll_dice(num):
     """Roll num dice and return a list"""
     results = []
@@ -16,13 +19,13 @@ def roll_dice(num):
 
     return results
 
+
 def roll_die():
     """roll a die"""
     import random
     low = 1
     high = 6
     return random.randint(low, high)
-
 
 
 if __name__ == '__main__':

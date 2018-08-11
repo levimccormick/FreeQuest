@@ -1,6 +1,7 @@
 """ Tests for the combat module."""
 
-import combat
+from freequest import combat
+
 
 def test_calculate_wounds():
     """ Ensure the calculate_wounds function works properly."""
@@ -16,9 +17,11 @@ def test_calculate_wounds():
     defense = [2]
     assert combat.calculate_wounds(attack, defense) == 0
 
+
 def test_do_attack():
     """ Ensure attack function returns the correct types. """
     assert isinstance(combat.do_attack(3, 5), int)
+
 
 def test_run_combat():
     """ Ensuring combat works."""
