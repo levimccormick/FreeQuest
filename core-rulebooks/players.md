@@ -61,7 +61,7 @@ To disarm a trap, the hero announces they are attempting to disarm the trap and 
 Heroes start with 1 Attack and Defense die. Weapons and Armor add extra dice.
 
 | Weapon | Attack Dice|Cost| Special |
-|-------|:--------:|--------:|
+|-------|:--------:|--------:|----|
 | Dagger     | +1 | 25  | |
 | Staff      | +1 | 100 | Attacks diagonally, 2 hands |
 | Shortsword | +2 | 200 | |
